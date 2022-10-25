@@ -1,8 +1,9 @@
-n = int(input())
+#Вариант 10
+n = int(input()) #Ввод числа
 k = 0
-while True:
-    if 3 ** k >= n:
-        k -= 1
-        break
+while True: #Условие цикла
+    if 3 ** k >= n: #Разветвление
+        k -= 1 #Тело ветки
+        break #Выход из цикла
     k += 1
-print(k)
+print(k) #Вывод результата
