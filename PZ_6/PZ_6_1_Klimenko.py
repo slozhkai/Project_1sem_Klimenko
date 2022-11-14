@@ -14,5 +14,8 @@ while i < n:
     a.append(random.randint(0, 10))
     i += 1
 
+for s in range((k - 1), n, k):
+    print("Элемент:", a[s], "Порядковый номер:", s + 1)
+
 
 
